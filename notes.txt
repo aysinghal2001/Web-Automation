@@ -7,3 +7,15 @@ git stash pop 1 - Apply the stash and delete it from list
 Reset
 
 git reset Head <filename> - Unstage the file from the index
+git checkout -- <filename> - Reset the file to the last commit
+
+Diff between Git revert and reset
+
+The “git revert” command is slightly different from the “git reset” command because it will record a new commit with the changes introducted by reverting the last commit.
+
+Note also that with “git reset” you specified “HEAD~1” because the reset command sets a new HEAD position while reverting actually reverts the commit specified.
+
+As a consequence, you will have to commit the changes again for the files to be reverted and for the commit to be undone.
+
+git reset HEAD --: unstage all the changes
+
