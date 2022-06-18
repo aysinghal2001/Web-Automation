@@ -19,3 +19,4 @@ As a consequence, you will have to commit the changes again for the files to be 
 
 git reset HEAD --: unstage all the changes
 
+git checkout --: revert the changes, here -- tells git that any path specified would be a file name not branch name
