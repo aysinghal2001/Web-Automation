@@ -36,3 +36,4 @@ Methods of string
 Eg. num=20
 puts ("my fav num is" + num.to_s)
 ceil and floor- ceil gives higher value and floor give lower value in rounding off
+git checkout --: revert the changes, here -- tells git that any path specified would be a file name not branch name
