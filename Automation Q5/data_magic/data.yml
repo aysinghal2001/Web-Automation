@@ -1,0 +1,18 @@
+ayush_data:
+  name: 'Ayush Singhal'
+  email: 'ayush@gmail.com'
+  phone_number: '9999978678'
+  city: Noida
+
+raj_data:
+  name: 'Raj Mehta'
+  email: 'raj@gmail.com'
+  phone_number: '99939228678'
+  city: Chandigarh
+
+shivam_data:
+  name: 'Shivam singh'
+  email: 'shivam@gmail.com'
+  phone_number: '8979978678'
+  city: Ranchi
+
