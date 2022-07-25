@@ -22,6 +22,7 @@ class Product
       @mrp += tax
       add_item(tax)
   end
+  
   def import_tax
       @price*(SALES_TAX)
   end
